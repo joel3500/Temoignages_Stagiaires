@@ -94,6 +94,7 @@ iframe, video
   .header_avec_image, .header_sans_image, h2 { 
     width: 90%; 
     margin-left: 5%;
+    height: 200px;
   }
   
    video { 
@@ -111,7 +112,7 @@ iframe, video
     
   .header_avec_image, .header_sans_image, h2 { 
     width: 90%; 
-    height: auto;
+    height: 200px;
     margin-left: 5%;
   }
  
