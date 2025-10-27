@@ -91,7 +91,7 @@ iframe, video
 /* <= 768px : empile tout en 1 colonne, boutons full width */
 @media (max-width: 768px) {
 
-  .header_avec_image, .header_sans_image, h2, .poster_un_chat, .le_chat { 
+  .header_avec_image, .header_sans_image, h2 { 
     width: 90%; 
     margin-left: 5%;
   }
@@ -109,8 +109,9 @@ iframe, video
 /* <= 480px : densifie encore */
 @media (max-width: 480px) {
     
-  .header_avec_image, .header_sans_image, h2, .poster_un_chat, .le_chat { 
+  .header_avec_image, .header_sans_image, h2 { 
     width: 90%; 
+    height: auto;
     margin-left: 5%;
   }
  
